@@ -4,7 +4,7 @@ project(${PROJECT_NAME})
 
 set(CMAKE_BUILD_TYPE release)
 
-set(CMAKE_CXX_FLAGS "-std=c++11")
+set(CMAKE_CXX_FLAGS "-std=c++14")
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fpic")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpic")
@@ -36,8 +36,6 @@ target_link_libraries(testPinholeProjectFactor ${PROJECT_NAME} )
 
 add_executable(testProjectError  test/testProjectError.cpp)
 target_link_libraries(testProjectError ${PROJECT_NAME} )
-
-
 
 add_executable(testMarginalization  test/testMarginalization.cpp)
 target_link_libraries(testMarginalization ${PROJECT_NAME} )
