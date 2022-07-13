@@ -12,6 +12,7 @@ I will try to show how marginlaization works and  optimize the performance at th
 ##  0.引言
 
 - 为[该库](https://github.com/pangfumin/marginalization)的学习笔记.
+- [笔记博客](https://blog.csdn.net/fb_941219/article/details/125772329?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22125772329%22%2C%22source%22%3A%22fb_941219%22%7D&ctrtid=YXUSP)
 
 
 主要参考博客与链接：
@@ -311,5 +312,4 @@ margin后需要对剩下的 H、b恢复Jacobian存入剩余的状态变量中，
 
 
 理论基本在上述参考博客中，如果是简单的学习，直接看 vins 的就好，如果要深入学习，那这个demo就很不错，感谢大佬开源。
-
 
